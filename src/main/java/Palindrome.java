@@ -13,4 +13,9 @@ public class Palindrome {
         return "Yes";
     }
 
+    public static void main(String... args) {
+        String candidate = "anis";
+        String name = String.format("hello %s", candidate);
+        System.out.println(name);
+    }
 }
